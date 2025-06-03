@@ -16,6 +16,6 @@ document.getElementById("registerForm").addEventListener("submit", function (e) 
     headers: { "Content-Type": "application/json" }
   }).then(() => {
     alert("Registrasi berhasil!");
-    window.location.href = "../login/login.html";
+    window.location.href = "login/login.html";
   });
 });
